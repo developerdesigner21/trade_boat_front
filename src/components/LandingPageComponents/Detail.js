@@ -3,20 +3,20 @@ function Detail() {
   return (
     <div>
       {/* <!-- Main --> */}
-      <div id="main" class="wrapper style1">
-        <div class="container">
-          <header class="major">
+      <div id="main" className="wrapper style1">
+        <div className="container">
+          <header className="major">
             <h2>Right Sidebar</h2>
             <p>
               Ipsum dolor feugiat aliquam tempus sed magna lorem consequat
               accumsan
             </p>
           </header>
-          <div class="row gtr-150">
-            <div class="col-8 col-12-medium">
+          <div className="row gtr-150">
+            <div className="col-8 col-12-medium">
               {/* <!-- Content --> */}
               <section id="content">
-                <a href="#" class="image fit">
+                <a href="#" className="image fit">
                   <img src={pic06} alt="" />
                 </a>
                 <h3>Dolore Amet Consequat</h3>
@@ -54,7 +54,7 @@ function Detail() {
                 </ul>
               </section>
             </div>
-            <div class="col-4 col-12-medium">
+            <div className="col-4 col-12-medium">
               {/* <!-- Sidebar --> */}
               <section id="sidebar">
                 <section>
@@ -66,9 +66,9 @@ function Detail() {
                     amet sed nibh. Proin a ullamcorper sed blandit..
                   </p>
                   <footer>
-                    <ul class="actions">
+                    <ul className="actions">
                       <li>
-                        <a href="#" class="button">
+                        <a href="#" className="button">
                           Learn More
                         </a>
                       </li>
@@ -77,7 +77,7 @@ function Detail() {
                 </section>
                 <hr />
                 <section>
-                  <a href="#" class="image fit">
+                  <a href="#" className="image fit">
                     <img src="images/pic07.jpg" alt="" />
                   </a>
                   <h3>Amet Lorem Tempus</h3>
@@ -88,9 +88,9 @@ function Detail() {
                     lorem ipsum dolore.
                   </p>
                   <footer>
-                    <ul class="actions">
+                    <ul className="actions">
                       <li>
-                        <a href="#" class="button">
+                        <a href="#" className="button">
                           Learn More
                         </a>
                       </li>

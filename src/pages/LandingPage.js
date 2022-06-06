@@ -6,9 +6,9 @@ function LandingPage() {
   return (
     <div className="is-preload landing">
       <div id="page-wrapper">
-		<Header />
-		<HomePage />
-		<Footer />
+        <Header />
+        <HomePage />
+        <Footer />
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
-function KycPage() {
+import KycHomeComponent from "../components/KycComponent/KycHomeComponent";
+
+const KycPage = () => {
   return (
-    <div>
-        <h1>kyc page</h1>
+    <div >
+      <KycHomeComponent />
     </div>
   );
 }
